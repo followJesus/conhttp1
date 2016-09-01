@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/zaijian"
+        android:layout_marginTop="20dp"
+        android:id="@+id/zaijian"/>
+    <EditText
+        android:layout_below="@id/zaijian"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt"/>
+
+    <!--<ListView
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myList"/>-->
+
+    <ImageView
+        android:contentDescription="@string/app_name"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:id="@+id/s1"/>
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/showData"/>
+
+
+<TextView
+    android:layout_marginTop="20dp"
+    android:layout_below="@id/btn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/img1"
+    android:hint="@string/app_name"/>
+
+
+
+</RelativeLayout>
